@@ -60,7 +60,7 @@ int main() {
 }
 
 void init() {
-    User = (AboutMe *) malloc(sizeof(AboutMe));
+    User = malloc(sizeof(AboutMe));
     User->name = name;
     User->blog = blog;
     User->email = email;
