@@ -26,7 +26,7 @@ typedef struct AboutMe {
     char *email;
 } AboutMe;
 
-AboutMe *user = NULL;
+AboutMe *me = NULL;
 char *name = "erzbir";
 char *blog = "erzbir.com";
 char *email = "erzbir@mail.com";
@@ -43,41 +43,41 @@ int len_arr(char **s);
 int main() {
     init();
     printf("About Me:\n");
-    printf("  name: \n    %s\n", user->name);
+    printf("  name: \n    %s\n", me->name);
     printf("  languages:\n    ");
-    print_arr(user->languages);
+    print_arr(me->languages);
     printf("  hobbies:\n    ");
-    print_arr(user->hobbies);
+    print_arr(me->hobbies);
     learn("Assembly");
     learn("everything");
     learn("......");
     printf("  learnings:\n    ");
-    print_arr(user->learnings);
-    printf("  blog:\n    %s\n", user->blog);
-    printf("  email:\n    %s", user->email);
+    print_arr(me->learnings);
+    printf("  blog:\n    %s\n", me->blog);
+    printf("  email:\n    %s", me->email);
     clean();
     return 0;
 }
 
 void init() {
-    user = malloc(sizeof(AboutMe));
-    user->name = name;
-    user->blog = blog;
-    user->email = email;
-    user->languages = malloc(sizeof(languages));
-    user->hobbies = malloc(sizeof(hobbies));
-    user->learnings = malloc(sizeof(learnings));
-    memcpy(user->languages, languages, sizeof(languages));
-    memcpy(user->hobbies, hobbies, sizeof(hobbies));
-    memcpy(user->learnings, learnings, sizeof(learnings));
+    me = malloc(sizeof(AboutMe));
+    me->name = name;
+    me->blog = blog;
+    me->email = email;
+    me->languages = malloc(sizeof(languages));
+    me->hobbies = malloc(sizeof(hobbies));
+    me->learnings = malloc(sizeof(learnings));
+    memcpy(me->languages, languages, sizeof(languages));
+    memcpy(me->hobbies, hobbies, sizeof(hobbies));
+    memcpy(me->learnings, learnings, sizeof(learnings));
 }
 
 void learn(char *s) {
     if (s == NULL) return;
-    char **ptr = user->learnings;
-    int length = len_arr(user->learnings);
-    user->learnings = realloc(ptr, sizeof(char *) * (length + 1));
-    ptr = user->learnings;
+    char **ptr = me->learnings;
+    int length = len_arr(me->learnings);
+    me->learnings = realloc(ptr, sizeof(char *) * (length + 1));
+    ptr = me->learnings;
     ptr[length] = s;
 }
 
@@ -103,10 +103,10 @@ void print_arr(char **s) {
 }
 
 void clean() {
-    free(user->languages);
-    free(user->hobbies);
-    free(user->learnings);
-    free(user);
+    free(me->languages);
+    free(me->hobbies);
+    free(me->learnings);
+    free(me);
 }
 ```
 
