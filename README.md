@@ -19,7 +19,7 @@ char *name = "erzbir";
 char *blog = "erzbir.com";
 char *email = "erzbir@mail.com";
 char *languages[] = {"Java", "Python", "JavaScript", "Html", "C#", "C", NULL};
-char *likes[] = {"爱尔兰木长笛", "爱尔兰哨笛", "游戏王 OCG", "骑行", NULL};
+char *likes[] = {"Irish flute", "Tin whistle", "Yu-Gi-Oh OCG", "Riding", NULL};
 char *learnings[] = {"JVM", "Spring Cloud", "Kotlin", "Vue", NULL};
 
 void init();
