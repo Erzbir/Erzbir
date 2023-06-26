@@ -1,5 +1,4 @@
 ## About Me:
-
 <p>
 <a href="https://erzbir.com">
     <img src="https://img.shields.io/badge/Website-erzbir.com-red?style=flat-square">
@@ -8,6 +7,10 @@
     <img src="https://img.shields.io/badge/-Email-red?style=flat-square&logo=gmail&logoColor=white">
 </a>
 </p>
+
+<!-- <details>
+<summary>Code</summary>
+</br> -->
 
 ```c
 #include <stdio.h>
@@ -106,6 +109,9 @@ void clean() {
     free(User);
 }
 ```
+
+<!-- </details> -->
+
 <p>
 <a href="https://git.io/typing-svg">
     <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=30&duration=600&pause=500&multiline=true&repeat=true&width=1500&height=500&lines=About+Me%3A;ㅤ++name%3A;ㅤㅤ++++erzbir;ㅤ++++languages%3A;ㅤㅤ++++%5B'Java'%2C+'Python'%2C+'JavaScript'%2C+'Html'%2C+'C%23'%2C+'C'%5D;ㅤ++likes%3A;ㅤㅤ++++%5B'Irish+flute'%2C+'Tin+whistle'%2C+'Yu-Gi-Oh+OCG'%2C+'Riding'%5D;ㅤ++learnings%3A;ㅤㅤ++++%5B'JVM'%2C+'Spring+Cloud'%2C+'Kotlin'%2C+'Vue'%2C+'Assembly'%2C+'everything'%2C+'......'%5D;ㅤ++blog%3A;ㅤㅤ++++erzbir.com;ㅤ++email%3A;ㅤㅤ++++erzbir%40mail.com" alt="Typing SVG" />
@@ -114,19 +120,41 @@ void clean() {
 
 ##
 
+<!-- 
 <p>
-<!-- <a href="https://github.com/Erzbir">
+<a href="https://github.com/Erzbir">
     <img src="https://github-stats-alpha.vercel.app/api?username=Erzbir&cc=22272e&tc=37BCF6&ic=fff&bc=0000">
-</a> -->
+</a>
 <a href="https://github.com/Erzbir">
     <img src="https://github-readme-stats.vercel.app/api?username=Erzbir&layout=compact&show_icons=true&theme=tokyonight">
 </a>
 <a href="https://github.com/Erzbir">
     <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Erzbir&layout=compact&theme=tokyonight">
 </a>
-</p>
+</p> 
+-->
+
+<!--
+<details>
+<summary>📈 Github Stats</summary>
+</br>
+-->
+
+![](http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Erzbir&theme=dracula) 
+
+![](https://github-readme-stats.vercel.app/api?username=Erzbir&layout=compact&show_icons=true&theme=dracula)
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=Erzbir&layout=compact&theme=dracula)
+
+<!--
+</br>
+</details>
+-->
 
 ##
+
+<details>
+<summary>📈 Wakatime Stats</summary>
+</br>
 
 ![Erzbir's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=Erzbir\&layout=compact)
 
@@ -216,6 +244,10 @@ C                        1 repo              ██░░░░░░░░░�
 
  Last Updated on 25/06/2023 18:36:52 UTC
 <!--END_SECTION:waka-->
+
+</details>
+
+##
 
 <p align="center"> 
   Visitor count<br>
