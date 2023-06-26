@@ -20,68 +20,68 @@
 typedef struct AboutMe {
     char *name;
     char **languages;
-    char **likes;
+    char **hobbies;
     char **learnings;
     char *blog;
     char *email;
 } AboutMe;
 
-AboutMe *User = NULL;
+AboutMe *user = NULL;
 char *name = "erzbir";
 char *blog = "erzbir.com";
 char *email = "erzbir@mail.com";
 char *languages[] = {"Java", "Python", "JavaScript", "Html", "C#", "C", NULL};
-char *likes[] = {"Irish flute", "Tin whistle", "Yu-Gi-Oh OCG", "Riding", NULL};
+char *hobbies[] = {"Irish flute", "Tin whistle", "Yu-Gi-Oh OCG", "Riding", NULL};
 char *learnings[] = {"JVM", "Spring Cloud", "Kotlin", "Vue", NULL};
 
 void init();
-void prints(char **s);
+void print_arr(char **s);
 void learn(char *s);
 void clean();
-int len(char **s);
+int len_arr(char **s);
 
 int main() {
     init();
     printf("About Me:\n");
-    printf("  name: \n    %s\n", User->name);
+    printf("  name: \n    %s\n", user->name);
     printf("  languages:\n    ");
-    prints(User->languages);
-    printf("  likes:\n    ");
-    prints(User->likes);
+    print_arr(user->languages);
+    printf("  hobbies:\n    ");
+    print_arr(user->hobbies);
     learn("Assembly");
     learn("everything");
     learn("......");
     printf("  learnings:\n    ");
-    prints(User->learnings);
-    printf("  blog:\n    %s\n", User->blog);
-    printf("  email:\n    %s", User->email);
+    print_arr(user->learnings);
+    printf("  blog:\n    %s\n", user->blog);
+    printf("  email:\n    %s", user->email);
     clean();
     return 0;
 }
 
 void init() {
-    User = malloc(sizeof(AboutMe));
-    User->name = name;
-    User->blog = blog;
-    User->email = email;
-    User->languages = malloc(sizeof(languages));
-    User->likes = malloc(sizeof(likes));
-    User->learnings = malloc(sizeof(learnings));
-    memcpy(User->languages, languages, sizeof(languages));
-    memcpy(User->likes, likes, sizeof(likes));
-    memcpy(User->learnings, learnings, sizeof(learnings));
+    user = malloc(sizeof(AboutMe));
+    user->name = name;
+    user->blog = blog;
+    user->email = email;
+    user->languages = malloc(sizeof(languages));
+    user->hobbies = malloc(sizeof(hobbies));
+    user->learnings = malloc(sizeof(learnings));
+    memcpy(user->languages, languages, sizeof(languages));
+    memcpy(user->hobbies, hobbies, sizeof(hobbies));
+    memcpy(user->learnings, learnings, sizeof(learnings));
 }
 
 void learn(char *s) {
     if (s == NULL) return;
-    char **ptr = User->learnings;
-    int length = len(User->learnings);
-    User->learnings = realloc(ptr, sizeof(char *) * (length + 1));
-    ptr = User->learnings;
+    char **ptr = user->learnings;
+    int length = len_arr(user->learnings);
+    user->learnings = realloc(ptr, sizeof(char *) * (length + 1));
+    ptr = user->learnings;
     ptr[length] = s;
 }
 
-int len(char **s) {
+int len_arr(char **s) {
     if (s == NULL) return 0;
     int length = 0;
     char **ptr = s;
@@ -89,7 +89,7 @@ int len(char **s) {
     return length;
 }
 
-void prints(char **s) {
+void print_arr(char **s) {
     if (s == NULL) return;
     char **ptr = s;
     printf("[");
@@ -103,10 +103,10 @@ void prints(char **s) {
 }
 
 void clean() {
-    free(User->languages);
-    free(User->likes);
-    free(User->learnings);
-    free(User);
+    free(user->languages);
+    free(user->hobbies);
+    free(user->learnings);
+    free(user);
 }
 ```
 
@@ -114,7 +114,7 @@ void clean() {
 
 <p>
 <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=30&duration=600&pause=500&multiline=true&repeat=true&width=1500&height=500&lines=About+Me%3A;ㅤ++name%3A;ㅤㅤ++++erzbir;ㅤ++++languages%3A;ㅤㅤ++++%5B'Java'%2C+'Python'%2C+'JavaScript'%2C+'Html'%2C+'C%23'%2C+'C'%5D;ㅤ++likes%3A;ㅤㅤ++++%5B'Irish+flute'%2C+'Tin+whistle'%2C+'Yu-Gi-Oh+OCG'%2C+'Riding'%5D;ㅤ++learnings%3A;ㅤㅤ++++%5B'JVM'%2C+'Spring+Cloud'%2C+'Kotlin'%2C+'Vue'%2C+'Assembly'%2C+'everything'%2C+'......'%5D;ㅤ++blog%3A;ㅤㅤ++++erzbir.com;ㅤ++email%3A;ㅤㅤ++++erzbir%40mail.com" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=30&duration=600&pause=500&multiline=true&repeat=true&width=1500&height=500&lines=About+Me%3A;ㅤ++name%3A;ㅤㅤ++++erzbir;ㅤ++++languages%3A;ㅤㅤ++++%5B'Java'%2C+'Python'%2C+'JavaScript'%2C+'Html'%2C+'C%23'%2C+'C'%5D;ㅤ++hobbies%3A;ㅤㅤ++++%5B'Irish+flute'%2C+'Tin+whistle'%2C+'Yu-Gi-Oh+OCG'%2C+'Riding'%5D;ㅤ++learnings%3A;ㅤㅤ++++%5B'JVM'%2C+'Spring+Cloud'%2C+'Kotlin'%2C+'Vue'%2C+'Assembly'%2C+'everything'%2C+'......'%5D;ㅤ++blog%3A;ㅤㅤ++++erzbir.com;ㅤ++email%3A;ㅤㅤ++++erzbir%40mail.com" alt="Typing SVG" />
 </a>
 </p>
 
