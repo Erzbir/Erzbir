@@ -1,4 +1,4 @@
-## 关于我:
+## About Me:
 
 ```c
 #include <stdio.h>
