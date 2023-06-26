@@ -154,7 +154,7 @@ void clean() {
 
 <details>
 <summary>📈 Wakatime Stats</summary>
-</br>
+<br>
 
 ![Erzbir's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=Erzbir\&layout=compact)
 
