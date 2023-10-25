@@ -252,6 +252,6 @@ JavaScript               1 repo              █░░░░░░░░░░�
 ##
 
 <p align="center"> 
-  Visitor count<br>
+  <b>Visitor Count</b><br>
   <img src="https://profile-counter.glitch.me/erzbir/count.svg" />
 </p>
