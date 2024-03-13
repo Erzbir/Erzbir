@@ -5,39 +5,52 @@ struct ReadMe {
     email: &'static str,
 }
 
-trait Ability {
-    fn rust(&self) -> &str { "https://www.rust-lang.org" }
-    fn java(&self) -> &str { "https://www.java.com" }
-    fn python(&self) -> &str { "https://www.python.org" }
-    fn csharp(&self) -> &str { "https://learn.microsoft.com/dotnet/csharp/" }
-    fn javascript(&self) -> &str { "https://www.javascript.com" }
-    fn typescript(&self) -> &str { "https://www.typescriptlang.org" }
+const ME: ReadMe = ReadMe {
+    name: "Erzbir",
+    blog: "https://erzbir.com",
+    email: "erzbir@mail.com",
+};
+
+pub trait Expertise {
+    fn rust(&self) -> &str { "Rust is my new language" }
+    fn java(&self) -> &str { "Java is my main language" }
+    fn python(&self) -> &str { "I use python in ai or scripts" }
+    fn csharp(&self) -> &str { "C# for Unity3D" }
+    fn javascript(&self) -> &str { "JavaScript for frontend" }
+    fn typescript(&self) -> &str { "TypeScript for frontend" }
 }
 
-trait Hobby {
-    fn ocg(&self) -> &str { "https://yugioh.fandom.com/wiki/Yu-Gi-Oh!_Official_Card_Game" }
-    fn irish_flute(&self) -> &str { "https://en.wikipedia.org/wiki/Irish_flute" }
-    fn riding(&self) {}
+pub trait Hobby {
+    fn ocg(&self) -> &str { "OCG is my favorite game" }
+    fn irish_flute(&self) -> &str { "I have been learning flute since 2017" }
+    fn mtb(&self) -> &str { "Mountain biking!" }
 }
 
-impl Ability for ReadMe {}
+impl Expertise for ReadMe {}
 
 impl Hobby for ReadMe {}
 
-macro_rules! info {
-    () => {
-        print!("\n")
-    };
-    ($($arg:tt)*) => {
-        println!("{:#?}", $($arg)*)
-    };
-}
 
 fn main() {
-    let user = ReadMe {
-        name: "Erzbir",
-        blog: "https://erzbir.com",
-        email: "erzbir@mail.com",
+    let abilities = 'Expertises: {
+        [
+            ME.rust(),
+            ME.java(),
+            ME.python(),
+            ME.csharp(),
+            ME.javascript(),
+            ME.typescript(),
+        ]
     };
-    info!(user);
+    let hobbies = 'Hobbies: {
+        [
+            ME.ocg(),
+            ME.irish_flute(),
+            ME.mtb(),
+        ]
+    };
+
+    println!("{:#?}", ME);
+    println!("{:#?}", abilities);
+    println!("{:#?}", hobbies);
 }
