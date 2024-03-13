@@ -13,36 +13,51 @@
 </br> -->
 
 ```rust
-fn main() {
-    let name = "erzbir";
-    let languages = ["Java", "Python", "JavaScript", "Html", "C#", "C"];
-    let hobbies = ["Irish flute", "Tin whistle", "Yu-Gi-Oh OCG", "Riding"];
-    let learnings = ["JVM", "Spring Cloud", "Kotlin", "Vue, Assembly, everything, ......"];
-    let blog = "https://erzbir.com";
-    let email = "erzbir@mail.com";
+#[derive(Debug)]
+struct ReadMe {
+ name: &'static str,
+ blog: &'static str,
+ email: &'static str,
+}
 
-    println!("About Me:");
-    println!("  name: \n    {}", name);
-    println!("  languages:    ");
-    println!("    {:?}", languages);
-    println!("  hobbies:    ");
-    println!("    {:?}", hobbies);
-    println!("  learnings:    ");
-    println!("    {:?}", learnings);
-    println!("  blog:\n    {}", blog);
-    println!("  email:\n    {}", email);
+trait Ability {
+ fn rust(&self) {}
+ fn java(&self) {}
+ fn python(&self) {}
+ fn javascript(&self) {}
+ fn typescript(&self) {}
+ fn c(&self) {}
+ fn csharp(&self) {}
+}
+
+trait Hobby {
+ fn irish_flute(&self) {}
+ fn yu_gi_oh(&self) {}
+ fn riding(&self) {}
+}
+
+impl Ability for ReadMe {}
+
+impl Hobby for ReadMe {}
+
+macro_rules! info {
+    () => {
+        print!("\n")
+    };
+    ($($arg:tt)*) => {
+        println!("{:#?}", $($arg)*)
+    };
+}
+
+fn main() {
+ let user = ReadMe {
+  name: "Erzbir",
+  blog: "https://erzbir.com",
+  email: "erzbir@mail.com",
+ };
+ info!(user);
 }
 ```
-
-<!-- </details> -->
-
-<p>
-<a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=30&duration=600&pause=500&multiline=true&repeat=true&width=1500&height=500&lines=About+Me%3A;ㅤ++name%3A;ㅤㅤ++++erzbir;ㅤ++++languages%3A;ㅤㅤ++++%5B'Java'%2C+'Python'%2C+'JavaScript'%2C+'Html'%2C+'C%23'%2C+'C'%5D;ㅤ++hobbies%3A;ㅤㅤ++++%5B'Irish+flute'%2C+'Tin+whistle'%2C+'Yu-Gi-Oh+OCG'%2C+'Riding'%5D;ㅤ++learnings%3A;ㅤㅤ++++%5B'JVM'%2C+'Spring+Cloud'%2C+'Kotlin'%2C+'Vue'%2C+'Assembly'%2C+'everything'%2C+'......'%5D;ㅤ++blog%3A;ㅤㅤ++++erzbir.com;ㅤ++email%3A;ㅤㅤ++++erzbir%40mail.com" alt="Typing SVG" />
-</a>
-</p>
-
-##
 
 <!-- 
 <p>
