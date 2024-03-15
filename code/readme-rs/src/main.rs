@@ -32,7 +32,7 @@ impl Hobby for ReadMe {}
 
 
 fn main() {
-    let abilities = 'Expertises: {
+    let expertises = 'Expertises: {
         [
             ME.rust(),
             ME.java(),
@@ -51,6 +51,6 @@ fn main() {
     };
 
     println!("{:#?}", ME);
-    println!("{:#?}", abilities);
+    println!("{:#?}", expertises);
     println!("{:#?}", hobbies);
 }

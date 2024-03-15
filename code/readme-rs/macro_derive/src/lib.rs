@@ -4,7 +4,7 @@ use quote::quote;
 use syn::DeriveInput;
 
 #[proc_macro_derive(ExpertiseImpl)]
-pub fn impl_ability(input: TokenStream) -> TokenStream {
+pub fn impl_expertise(input: TokenStream) -> TokenStream {
     let ast: DeriveInput = syn::parse(input).unwrap();
     let name = &ast.ident;
     let gen = quote! {
