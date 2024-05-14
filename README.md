@@ -138,6 +138,8 @@ ReadMe {
 
 > 📦 303.5 kB Used in GitHub's Storage 
  > 
+> 🏆 107 Contributions in the Year 2024
+ > 
 > 🚫 Not Opted to Hire
  > 
 > 📜 32 Public Repositories 
@@ -209,7 +211,7 @@ HTML                     1 repo              █░░░░░░░░░░�
 ![Lines of Code chart](https://raw.githubusercontent.com/Erzbir/Erzbir/main/assets/bar_graph.png)
 
 
- Last Updated on 13/05/2024 18:36:52 UTC
+ Last Updated on 14/05/2024 18:37:29 UTC
 <!--END_SECTION:waka-->
 
 </details>
