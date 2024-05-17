@@ -132,13 +132,11 @@ ReadMe {
 <!--START_SECTION:waka-->
 ![Code Time](http://img.shields.io/badge/Code%20Time-757%20hrs%2017%20mins-blue)
 
-![Profile Views](http://img.shields.io/badge/Profile%20Views-16-blue)
+![Profile Views](http://img.shields.io/badge/Profile%20Views-15-blue)
 
 **🐱 My GitHub Data** 
 
 > 📦 303.5 kB Used in GitHub's Storage 
- > 
-> 🏆 107 Contributions in the Year 2024
  > 
 > 🚫 Not Opted to Hire
  > 
@@ -212,7 +210,7 @@ HTML                     1 repo              █░░░░░░░░░░�
 ![Lines of Code chart](https://raw.githubusercontent.com/Erzbir/Erzbir/main/assets/bar_graph.png)
 
 
- Last Updated on 16/05/2024 18:37:17 UTC
+ Last Updated on 17/05/2024 18:38:11 UTC
 <!--END_SECTION:waka-->
 
 </details>
