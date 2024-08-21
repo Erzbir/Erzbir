@@ -1,7 +1,7 @@
 <p>
 <a href="https://erzbir.com">
     <img src="https://img.shields.io/badge/Website-erzbir.com-red?style=flat-square">
-</a>  
+</a>
 <a href="mailto:erzbir@mail.com">
     <img src="https://img.shields.io/badge/-Email-red?style=flat-square&logo=gmail&logoColor=white">
 </a>
@@ -12,6 +12,32 @@
 </br> -->
 
 ```rust
+onst ME: ReadMe = ReadMe {
+    name: "Erzbir",
+    blog: "https://erzbir.com",
+    email: "erzbir@mail.com",
+    focus: "Cyber Security",
+};
+
+trait TechStack {
+    fn security(&self) {}
+    fn develop(&self) {}
+}
+
+trait Languages {
+    fn java(&self) {}
+    fn php(&self) {}
+    fn python(&self) {}
+    fn rust(&self) {}
+    fn c(&self) {}
+}
+
+trait Hobbies {
+    fn ocg(&self) {}
+    fn irish_flute(&self) {}
+    fn mtb(&self) {}
+}
+
 use macro_derive::{Hobbies, Languages, TechStack};
 
 #[derive(Debug, Languages, Hobbies, TechStack)]
@@ -19,32 +45,7 @@ struct ReadMe {
     name: &'static str,
     blog: &'static str,
     email: &'static str,
-}
-
-const ME: ReadMe = ReadMe {
-    name: "Erzbir",
-    blog: "https://erzbir.com",
-    email: "erzbir@mail.com",
-};
-
-trait TechStack {
-    fn develop(&self) -> &str { "[Framework, backend, frontend, ...]" }
-    fn security(&self) -> &str { "Attacking and defending" }
-    fn network(&self) -> &str { "[BPG, OSPF, ...]" }
-}
-
-trait Languages {
-    fn rust(&self) -> &str { "I'm learning now" }
-    fn java(&self) -> &str { "Webapps and cross-platform apps" }
-    fn python(&self) -> &str { "Scripts" }
-    fn php(&self) -> &str { "I Focusing on security" }
-    fn c(&self) -> &str { "My first programming language" }
-}
-
-trait Hobbies {
-    fn ocg(&self) -> &str { "OCG is my favorite game" }
-    fn irish_flute(&self) -> &str { "I've been learning the flute since 2017" }
-    fn mtb(&self) -> &str { "Mountain biking!" }
+    focus: &'static str,
 }
 ```
 
@@ -76,97 +77,93 @@ GitHub Stats
 ##
 
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-896%20hrs%2052%20mins-blue)
+![Code Time](http://img.shields.io/badge/Code%20Time-829%20hrs%2029%20mins-blue)
 
-![Profile Views](http://img.shields.io/badge/Profile%20Views-3-blue)
+![Profile Views](http://img.shields.io/badge/Profile%20Views-0-blue)
 
-**🐱 My GitHub Data** 
+**🐱 My GitHub Data**
 
-> 📦 305.9 kB Used in GitHub's Storage 
- > 
-> 🏆 161 Contributions in the Year 2024
- > 
+> 📦 208.6 kB Used in GitHub's Storage
+>
 > 🚫 Not Opted to Hire
- > 
-> 📜 36 Public Repositories 
- > 
-> 🔑 8 Private Repositories 
- > 
-**I'm a Night 🦉** 
+>
+> 📜 35 Public Repositories
+>
+> 🔑 7 Private Repositories
+>
+**I'm a Night 🦉**
 
 ```text
-🌞 Morning                221 commits         ████░░░░░░░░░░░░░░░░░░░░░   15.95 % 
-🌆 Daytime                443 commits         ████████░░░░░░░░░░░░░░░░░   31.96 % 
-🌃 Evening                386 commits         ███████░░░░░░░░░░░░░░░░░░   27.85 % 
-🌙 Night                  336 commits         ██████░░░░░░░░░░░░░░░░░░░   24.24 % 
+🌞 Morning                221 commits         ████░░░░░░░░░░░░░░░░░░░░░   16.33 %
+🌆 Daytime                406 commits         ████████░░░░░░░░░░░░░░░░░   30.01 %
+🌃 Evening                393 commits         ███████░░░░░░░░░░░░░░░░░░   29.05 %
+🌙 Night                  333 commits         ██████░░░░░░░░░░░░░░░░░░░   24.61 %
 ```
-📅 **I'm Most Productive on Tuesday** 
+
+📅 **I'm Most Productive on Tuesday**
 
 ```text
-Monday                   196 commits         ████░░░░░░░░░░░░░░░░░░░░░   14.14 % 
-Tuesday                  313 commits         ██████░░░░░░░░░░░░░░░░░░░   22.58 % 
-Wednesday                183 commits         ███░░░░░░░░░░░░░░░░░░░░░░   13.20 % 
-Thursday                 249 commits         ████░░░░░░░░░░░░░░░░░░░░░   17.97 % 
-Friday                   107 commits         ██░░░░░░░░░░░░░░░░░░░░░░░   07.72 % 
-Saturday                 180 commits         ███░░░░░░░░░░░░░░░░░░░░░░   12.99 % 
-Sunday                   158 commits         ███░░░░░░░░░░░░░░░░░░░░░░   11.40 % 
+Monday                   204 commits         ████░░░░░░░░░░░░░░░░░░░░░   15.08 %
+Tuesday                  307 commits         ██████░░░░░░░░░░░░░░░░░░░   22.69 %
+Wednesday                180 commits         ███░░░░░░░░░░░░░░░░░░░░░░   13.30 %
+Thursday                 242 commits         ████░░░░░░░░░░░░░░░░░░░░░   17.89 %
+Friday                   99 commits          ██░░░░░░░░░░░░░░░░░░░░░░░   07.32 %
+Saturday                 172 commits         ███░░░░░░░░░░░░░░░░░░░░░░   12.71 %
+Sunday                   149 commits         ███░░░░░░░░░░░░░░░░░░░░░░   11.01 %
 ```
 
-
-📊 **This Week I Spent My Time On** 
+📊 **This Week I Spent My Time On**
 
 ```text
 🕑︎ Time Zone: Asia/Shanghai
 
-💬 Programming Languages: 
-HTML                     1 hr 14 mins        █████████░░░░░░░░░░░░░░░░   34.70 % 
-Python                   57 mins             ███████░░░░░░░░░░░░░░░░░░   26.58 % 
-JavaScript               28 mins             ███░░░░░░░░░░░░░░░░░░░░░░   13.26 % 
-Lua                      19 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   09.17 % 
-Nginx configuration file 12 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   05.69 % 
+💬 Programming Languages:
+Rust                     4 hrs 24 mins       ██████████████░░░░░░░░░░░   54.97 %
+C++                      1 hr 25 mins        ████░░░░░░░░░░░░░░░░░░░░░   17.88 %
+Python                   33 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   07.04 %
+Java                     23 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   04.83 %
+PHP                      17 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   03.73 %
 
-🔥 Editors: 
-Neovim                   1 hr 56 mins        ██████████████░░░░░░░░░░░   54.37 % 
-PyCharm                  57 mins             ███████░░░░░░░░░░░░░░░░░░   26.76 % 
-IntelliJ IDEA            31 mins             ████░░░░░░░░░░░░░░░░░░░░░   14.46 % 
-Rustrover                9 mins              █░░░░░░░░░░░░░░░░░░░░░░░░   04.41 % 
+🔥 Editors:
+Neovim                   5 hrs 4 mins        ████████████████░░░░░░░░░   63.46 %
+CLion                    1 hr 42 mins        █████░░░░░░░░░░░░░░░░░░░░   21.34 %
+PyCharm                  34 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   07.19 %
+IntelliJ IDEA            24 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   05.04 %
+RustRover                13 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   02.76 %
 
-🐱‍💻 Projects: 
-homebrew                 1 hr 57 mins        ██████████████░░░░░░░░░░░   54.85 % 
-pythonProject            57 mins             ███████░░░░░░░░░░░░░░░░░░   26.76 % 
-Unknown Project          28 mins             ███░░░░░░░░░░░░░░░░░░░░░░   13.34 % 
-penetration              9 mins              █░░░░░░░░░░░░░░░░░░░░░░░░   04.41 % 
-sql                      1 min               ░░░░░░░░░░░░░░░░░░░░░░░░░   00.64 % 
+🐱‍💻 Projects:
+learn-main               4 hrs 2 mins        █████████████░░░░░░░░░░░░   50.48 %
+untitled12               1 hr 41 mins        █████░░░░░░░░░░░░░░░░░░░░   21.16 %
+Unknown Project          38 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   08.02 %
+homebrew                 24 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   05.03 %
+untitled                 18 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   03.95 %
 
-💻 Operating System: 
-Mac                      3 hrs 35 mins       █████████████████████████   100.00 % 
+💻 Operating System:
+Mac                      8 hrs               █████████████████████████   100.00 %
 ```
 
-**I Mostly Code in Java** 
+**I Mostly Code in Java**
 
 ```text
-Java                     13 repos            ███████████████░░░░░░░░░░   59.09 % 
-HTML                     2 repos             ██░░░░░░░░░░░░░░░░░░░░░░░   09.09 % 
-Rust                     2 repos             ██░░░░░░░░░░░░░░░░░░░░░░░   09.09 % 
-C#                       1 repo              █░░░░░░░░░░░░░░░░░░░░░░░░   04.55 % 
-C                        1 repo              █░░░░░░░░░░░░░░░░░░░░░░░░   04.55 % 
+Java                     12 repos            ██████████████░░░░░░░░░░░   57.14 %
+HTML                     2 repos             ██░░░░░░░░░░░░░░░░░░░░░░░   09.52 %
+Rust                     2 repos             ██░░░░░░░░░░░░░░░░░░░░░░░   09.52 %
+C#                       1 repo              █░░░░░░░░░░░░░░░░░░░░░░░░   04.76 %
+C                        1 repo              █░░░░░░░░░░░░░░░░░░░░░░░░   04.76 %
 ```
-
-
 
 **Timeline**
 
 ![Lines of Code chart](https://raw.githubusercontent.com/Erzbir/Erzbir/main/assets/bar_graph.png)
 
-
- Last Updated on 20/08/2024 18:40:42 UTC
+Last Updated on 02/07/2024 18:38:49 UTC
 <!--END_SECTION:waka-->
 
 </details>
 
 ##
 
-<p align="center"> 
+<p align="center">
   <b>Visitor Count</b><br>
   <img src="https://profile-counter.glitch.me/erzbir/count.svg"  alt="count"/>
 </p>
