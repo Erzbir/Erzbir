@@ -77,86 +77,87 @@ GitHub Stats
 ##
 
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-829%20hrs%2029%20mins-blue)
+![Code Time](http://img.shields.io/badge/Code%20Time-896%20hrs%2052%20mins-blue)
 
-![Profile Views](http://img.shields.io/badge/Profile%20Views-0-blue)
+![Profile Views](http://img.shields.io/badge/Profile%20Views-7-blue)
 
-**🐱 My GitHub Data**
+**🐱 My GitHub Data** 
 
-> 📦 208.6 kB Used in GitHub's Storage
->
+> 📦 314.5 kB Used in GitHub's Storage 
+ > 
+> 🏆 163 Contributions in the Year 2024
+ > 
 > 🚫 Not Opted to Hire
->
-> 📜 35 Public Repositories
->
-> 🔑 7 Private Repositories
->
-**I'm a Night 🦉**
+ > 
+> 📜 37 Public Repositories 
+ > 
+> 🔑 8 Private Repositories 
+ > 
+**I'm a Night 🦉** 
 
 ```text
-🌞 Morning                221 commits         ████░░░░░░░░░░░░░░░░░░░░░   16.33 %
-🌆 Daytime                406 commits         ████████░░░░░░░░░░░░░░░░░   30.01 %
-🌃 Evening                393 commits         ███████░░░░░░░░░░░░░░░░░░   29.05 %
-🌙 Night                  333 commits         ██████░░░░░░░░░░░░░░░░░░░   24.61 %
+🌞 Morning                221 commits         ████░░░░░░░░░░░░░░░░░░░░░   15.91 % 
+🌆 Daytime                446 commits         ████████░░░░░░░░░░░░░░░░░   32.11 % 
+🌃 Evening                386 commits         ███████░░░░░░░░░░░░░░░░░░   27.79 % 
+🌙 Night                  336 commits         ██████░░░░░░░░░░░░░░░░░░░   24.19 % 
 ```
-
-📅 **I'm Most Productive on Tuesday**
+📅 **I'm Most Productive on Tuesday** 
 
 ```text
-Monday                   204 commits         ████░░░░░░░░░░░░░░░░░░░░░   15.08 %
-Tuesday                  307 commits         ██████░░░░░░░░░░░░░░░░░░░   22.69 %
-Wednesday                180 commits         ███░░░░░░░░░░░░░░░░░░░░░░   13.30 %
-Thursday                 242 commits         ████░░░░░░░░░░░░░░░░░░░░░   17.89 %
-Friday                   99 commits          ██░░░░░░░░░░░░░░░░░░░░░░░   07.32 %
-Saturday                 172 commits         ███░░░░░░░░░░░░░░░░░░░░░░   12.71 %
-Sunday                   149 commits         ███░░░░░░░░░░░░░░░░░░░░░░   11.01 %
+Monday                   196 commits         ████░░░░░░░░░░░░░░░░░░░░░   14.11 % 
+Tuesday                  313 commits         ██████░░░░░░░░░░░░░░░░░░░   22.53 % 
+Wednesday                186 commits         ███░░░░░░░░░░░░░░░░░░░░░░   13.39 % 
+Thursday                 249 commits         ████░░░░░░░░░░░░░░░░░░░░░   17.93 % 
+Friday                   107 commits         ██░░░░░░░░░░░░░░░░░░░░░░░   07.70 % 
+Saturday                 180 commits         ███░░░░░░░░░░░░░░░░░░░░░░   12.96 % 
+Sunday                   158 commits         ███░░░░░░░░░░░░░░░░░░░░░░   11.38 % 
 ```
 
-📊 **This Week I Spent My Time On**
+
+📊 **This Week I Spent My Time On** 
 
 ```text
 🕑︎ Time Zone: Asia/Shanghai
 
-💬 Programming Languages:
-Rust                     4 hrs 24 mins       ██████████████░░░░░░░░░░░   54.97 %
-C++                      1 hr 25 mins        ████░░░░░░░░░░░░░░░░░░░░░   17.88 %
-Python                   33 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   07.04 %
-Java                     23 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   04.83 %
-PHP                      17 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   03.73 %
+💬 Programming Languages: 
+HTML                     1 hr 14 mins        ██████████░░░░░░░░░░░░░░░   41.87 % 
+Python                   57 mins             ████████░░░░░░░░░░░░░░░░░   32.07 % 
+JavaScript               28 mins             ████░░░░░░░░░░░░░░░░░░░░░   16.00 % 
+Nginx configuration file 12 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   06.86 % 
+JSON                     2 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   01.65 % 
 
-🔥 Editors:
-Neovim                   5 hrs 4 mins        ████████████████░░░░░░░░░   63.46 %
-CLion                    1 hr 42 mins        █████░░░░░░░░░░░░░░░░░░░░   21.34 %
-PyCharm                  34 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   07.19 %
-IntelliJ IDEA            24 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   05.04 %
-RustRover                13 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   02.76 %
+🔥 Editors: 
+Neovim                   1 hr 29 mins        █████████████░░░░░░░░░░░░   50.26 % 
+PyCharm                  57 mins             ████████░░░░░░░░░░░░░░░░░   32.29 % 
+IntelliJ IDEA            31 mins             ████░░░░░░░░░░░░░░░░░░░░░   17.45 % 
 
-🐱‍💻 Projects:
-learn-main               4 hrs 2 mins        █████████████░░░░░░░░░░░░   50.48 %
-untitled12               1 hr 41 mins        █████░░░░░░░░░░░░░░░░░░░░   21.16 %
-Unknown Project          38 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   08.02 %
-homebrew                 24 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   05.03 %
-untitled                 18 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   03.95 %
+🐱‍💻 Projects: 
+homebrew                 1 hr 57 mins        █████████████████░░░░░░░░   66.18 % 
+pythonProject            57 mins             ████████░░░░░░░░░░░░░░░░░   32.29 % 
+Unknown Project          2 mins              ░░░░░░░░░░░░░░░░░░░░░░░░░   01.52 % 
 
-💻 Operating System:
-Mac                      8 hrs               █████████████████████████   100.00 %
+💻 Operating System: 
+Mac                      2 hrs 58 mins       █████████████████████████   100.00 % 
 ```
 
-**I Mostly Code in Java**
+**I Mostly Code in Java** 
 
 ```text
-Java                     12 repos            ██████████████░░░░░░░░░░░   57.14 %
-HTML                     2 repos             ██░░░░░░░░░░░░░░░░░░░░░░░   09.52 %
-Rust                     2 repos             ██░░░░░░░░░░░░░░░░░░░░░░░   09.52 %
-C#                       1 repo              █░░░░░░░░░░░░░░░░░░░░░░░░   04.76 %
-C                        1 repo              █░░░░░░░░░░░░░░░░░░░░░░░░   04.76 %
+Java                     13 repos            ███████████████░░░░░░░░░░   59.09 % 
+HTML                     2 repos             ██░░░░░░░░░░░░░░░░░░░░░░░   09.09 % 
+Rust                     2 repos             ██░░░░░░░░░░░░░░░░░░░░░░░   09.09 % 
+C#                       1 repo              █░░░░░░░░░░░░░░░░░░░░░░░░   04.55 % 
+C                        1 repo              █░░░░░░░░░░░░░░░░░░░░░░░░   04.55 % 
 ```
+
+
 
 **Timeline**
 
 ![Lines of Code chart](https://raw.githubusercontent.com/Erzbir/Erzbir/main/assets/bar_graph.png)
 
-Last Updated on 02/07/2024 18:38:49 UTC
+
+ Last Updated on 21/08/2024 18:41:14 UTC
 <!--END_SECTION:waka-->
 
 </details>
