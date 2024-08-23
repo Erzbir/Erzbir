@@ -12,6 +12,13 @@
 </br> -->
 
 ```rust
+const ME: ReadMe = ReadMe {
+    name: "Erzbir",
+    blog: "https://erzbir.com",
+    email: "erzbir@mail.com",
+    focus: "Cyber Security",
+};
+
 #[derive(Debug)]
 struct ReadMe {
     name: &'static str,
@@ -27,13 +34,6 @@ trait Hobbies {
 }
 
 impl Hobbies for ReadMe {}
-
-const ME: ReadMe = ReadMe {
-    name: "Erzbir",
-    blog: "https://erzbir.com",
-    email: "erzbir@mail.com",
-    focus: "Cyber Security",
-};
 ```
 
 ##
