@@ -12,24 +12,12 @@
 </br> -->
 
 ```rust
-const ME: ReadMe = ReadMe {
-    name: "Erzbir",
-    blog: "https://erzbir.com",
-    email: "erzbir@mail.com",
-    focus: "Cyber Security",
-};
-
-trait TechStack {
-    fn security(&self) {}
-    fn develop(&self) {}
-}
-
-trait Languages {
-    fn java(&self) {}
-    fn php(&self) {}
-    fn python(&self) {}
-    fn rust(&self) {}
-    fn c(&self) {}
+#[derive(Debug)]
+struct ReadMe {
+    name: &'static str,
+    blog: &'static str,
+    email: &'static str,
+    focus: &'static str,
 }
 
 trait Hobbies {
@@ -38,15 +26,14 @@ trait Hobbies {
     fn mtb(&self) {}
 }
 
-use macro_derive::{Hobbies, Languages, TechStack};
+impl Hobbies for ReadMe {}
 
-#[derive(Debug, Languages, Hobbies, TechStack)]
-struct ReadMe {
-    name: &'static str,
-    blog: &'static str,
-    email: &'static str,
-    focus: &'static str,
-}
+const ME: ReadMe = ReadMe {
+    name: "Erzbir",
+    blog: "https://erzbir.com",
+    email: "erzbir@mail.com",
+    focus: "Cyber Security",
+};
 ```
 
 ##
@@ -81,73 +68,73 @@ GitHub Stats
 
 ![Profile Views](http://img.shields.io/badge/Profile%20Views-7-blue)
 
-**🐱 My GitHub Data** 
+**🐱 My GitHub Data**
 
-> 📦 320.1 kB Used in GitHub's Storage 
- > 
+> 📦 320.1 kB Used in GitHub's Storage
+ >
 > 🚫 Not Opted to Hire
- > 
-> 📜 37 Public Repositories 
- > 
-> 🔑 8 Private Repositories 
- > 
-**I'm a Night 🦉** 
+ >
+> 📜 37 Public Repositories
+ >
+> 🔑 8 Private Repositories
+ >
+**I'm a Night 🦉**
 
 ```text
-🌞 Morning                221 commits         ████░░░░░░░░░░░░░░░░░░░░░   15.90 % 
-🌆 Daytime                446 commits         ████████░░░░░░░░░░░░░░░░░   32.09 % 
-🌃 Evening                386 commits         ███████░░░░░░░░░░░░░░░░░░   27.77 % 
-🌙 Night                  337 commits         ██████░░░░░░░░░░░░░░░░░░░   24.24 % 
+🌞 Morning                221 commits         ████░░░░░░░░░░░░░░░░░░░░░   15.90 %
+🌆 Daytime                446 commits         ████████░░░░░░░░░░░░░░░░░   32.09 %
+🌃 Evening                386 commits         ███████░░░░░░░░░░░░░░░░░░   27.77 %
+🌙 Night                  337 commits         ██████░░░░░░░░░░░░░░░░░░░   24.24 %
 ```
-📅 **I'm Most Productive on Tuesday** 
+📅 **I'm Most Productive on Tuesday**
 
 ```text
-Monday                   196 commits         ████░░░░░░░░░░░░░░░░░░░░░   14.10 % 
-Tuesday                  313 commits         ██████░░░░░░░░░░░░░░░░░░░   22.52 % 
-Wednesday                186 commits         ███░░░░░░░░░░░░░░░░░░░░░░   13.38 % 
-Thursday                 250 commits         ████░░░░░░░░░░░░░░░░░░░░░   17.99 % 
-Friday                   107 commits         ██░░░░░░░░░░░░░░░░░░░░░░░   07.70 % 
-Saturday                 180 commits         ███░░░░░░░░░░░░░░░░░░░░░░   12.95 % 
-Sunday                   158 commits         ███░░░░░░░░░░░░░░░░░░░░░░   11.37 % 
+Monday                   196 commits         ████░░░░░░░░░░░░░░░░░░░░░   14.10 %
+Tuesday                  313 commits         ██████░░░░░░░░░░░░░░░░░░░   22.52 %
+Wednesday                186 commits         ███░░░░░░░░░░░░░░░░░░░░░░   13.38 %
+Thursday                 250 commits         ████░░░░░░░░░░░░░░░░░░░░░   17.99 %
+Friday                   107 commits         ██░░░░░░░░░░░░░░░░░░░░░░░   07.70 %
+Saturday                 180 commits         ███░░░░░░░░░░░░░░░░░░░░░░   12.95 %
+Sunday                   158 commits         ███░░░░░░░░░░░░░░░░░░░░░░   11.37 %
 ```
 
 
-📊 **This Week I Spent My Time On** 
+📊 **This Week I Spent My Time On**
 
 ```text
 🕑︎ Time Zone: Asia/Shanghai
 
-💬 Programming Languages: 
-HTML                     1 hr 15 mins        █████████░░░░░░░░░░░░░░░░   35.81 % 
-Rust                     52 mins             ██████░░░░░░░░░░░░░░░░░░░   24.99 % 
-Python                   33 mins             ████░░░░░░░░░░░░░░░░░░░░░   15.76 % 
-JavaScript               28 mins             ███░░░░░░░░░░░░░░░░░░░░░░   13.72 % 
-Bash                     11 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   05.60 % 
+💬 Programming Languages:
+HTML                     1 hr 15 mins        █████████░░░░░░░░░░░░░░░░   35.81 %
+Rust                     52 mins             ██████░░░░░░░░░░░░░░░░░░░   24.99 %
+Python                   33 mins             ████░░░░░░░░░░░░░░░░░░░░░   15.76 %
+JavaScript               28 mins             ███░░░░░░░░░░░░░░░░░░░░░░   13.72 %
+Bash                     11 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   05.60 %
 
-🔥 Editors: 
-Neovim                   2 hrs 24 mins       █████████████████░░░░░░░░   68.70 % 
-PyCharm                  33 mins             ████░░░░░░░░░░░░░░░░░░░░░   15.95 % 
-IntelliJ IDEA            32 mins             ████░░░░░░░░░░░░░░░░░░░░░   15.35 % 
+🔥 Editors:
+Neovim                   2 hrs 24 mins       █████████████████░░░░░░░░   68.70 %
+PyCharm                  33 mins             ████░░░░░░░░░░░░░░░░░░░░░   15.95 %
+IntelliJ IDEA            32 mins             ████░░░░░░░░░░░░░░░░░░░░░   15.35 %
 
-🐱‍💻 Projects: 
-homebrew                 1 hr 50 mins        █████████████░░░░░░░░░░░░   52.85 % 
-Erzbir                   44 mins             █████░░░░░░░░░░░░░░░░░░░░   21.19 % 
-pythonProject            33 mins             ████░░░░░░░░░░░░░░░░░░░░░   15.95 % 
-Unknown Project          11 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   05.64 % 
-untitled                 8 mins              █░░░░░░░░░░░░░░░░░░░░░░░░   03.89 % 
+🐱‍💻 Projects:
+homebrew                 1 hr 50 mins        █████████████░░░░░░░░░░░░   52.85 %
+Erzbir                   44 mins             █████░░░░░░░░░░░░░░░░░░░░   21.19 %
+pythonProject            33 mins             ████░░░░░░░░░░░░░░░░░░░░░   15.95 %
+Unknown Project          11 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   05.64 %
+untitled                 8 mins              █░░░░░░░░░░░░░░░░░░░░░░░░   03.89 %
 
-💻 Operating System: 
-Mac                      3 hrs 29 mins       █████████████████████████   100.00 % 
+💻 Operating System:
+Mac                      3 hrs 29 mins       █████████████████████████   100.00 %
 ```
 
-**I Mostly Code in Java** 
+**I Mostly Code in Java**
 
 ```text
-Java                     13 repos            ███████████████░░░░░░░░░░   59.09 % 
-HTML                     2 repos             ██░░░░░░░░░░░░░░░░░░░░░░░   09.09 % 
-Rust                     2 repos             ██░░░░░░░░░░░░░░░░░░░░░░░   09.09 % 
-C#                       1 repo              █░░░░░░░░░░░░░░░░░░░░░░░░   04.55 % 
-C                        1 repo              █░░░░░░░░░░░░░░░░░░░░░░░░   04.55 % 
+Java                     13 repos            ███████████████░░░░░░░░░░   59.09 %
+HTML                     2 repos             ██░░░░░░░░░░░░░░░░░░░░░░░   09.09 %
+Rust                     2 repos             ██░░░░░░░░░░░░░░░░░░░░░░░   09.09 %
+C#                       1 repo              █░░░░░░░░░░░░░░░░░░░░░░░░   04.55 %
+C                        1 repo              █░░░░░░░░░░░░░░░░░░░░░░░░   04.55 %
 ```
 
 
