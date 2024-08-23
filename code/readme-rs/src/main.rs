@@ -12,7 +12,7 @@ const ERZBIR: ReadMe = ReadMe {
     blog: "https://erzbir.com",
     email: "erzbir@mail.com",
     focus: "Cyber Security",
-    hobbies: "[irish flute, ocg, biking]"
+    hobbies: "[Irish Flute, OCG, Biking]"
 };
 
 fn main() {
