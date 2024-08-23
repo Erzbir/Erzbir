@@ -12,7 +12,7 @@
 </br> -->
 
 ```rust
-onst ME: ReadMe = ReadMe {
+const ME: ReadMe = ReadMe {
     name: "Erzbir",
     blog: "https://erzbir.com",
     email: "erzbir@mail.com",
