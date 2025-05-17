@@ -2,7 +2,7 @@
 <a href="https://erzbir.com">
     <img src="https://img.shields.io/badge/Website-erzbir.com-red?style=flat-square">
 </a>
-<a href="mailto:erzbir@mail.com">
+<a href="mailto:contact@erzbir.com">
     <img src="https://img.shields.io/badge/-Email-red?style=flat-square&logo=gmail&logoColor=white">
 </a>
 </p>
