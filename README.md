@@ -130,8 +130,3 @@ C                        1 repo              █░░░░░░░░░░�
 </details>
 
 ##
-
-<p align="center">
-  <b>Visitor Count</b><br>
-  <img src="https://profile-counter.glitch.me/erzbir/count.svg"  alt="count"/>
-</p>
