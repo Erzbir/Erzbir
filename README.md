@@ -1,24 +1,27 @@
-<p>
-<a href="https://erzbir.com">
-    <img src="https://img.shields.io/badge/Website-erzbir.com-red?style=flat-square">
-</a>
-<a href="mailto:contact@erzbir.com">
-    <img src="https://img.shields.io/badge/-Email-red?style=flat-square&logo=gmail&logoColor=white">
-</a>
-</p>
+<div dir="auto">
+  <p dir="auto" align="center">
+  </p>
+  <p dir="auto" align="center">
+    <a href="https://erzbir.com" rel="nofollow">Blog</a> |
+    <a href="https://erzbir.com/about/" rel="nofollow">About</a> |
+    <a href="mailto:contact@erzbir.com">Email</a>
+  </p>
+</div>
 
-<!-- <details>
-<summary>Code</summary>
-</br> -->
+```bash
+blog = "https://erzbir.com"
 
-```rust
-const ERZBIR: ReadMe = ReadMe {
-    name: "Erzbir",
-    blog: "https://erzbir.com",
-    email: "contact@erzbir.com",
-    focus: "Cyber Security",
-    hobbies: "[Irish Flute, OCG, Biking]"
-};
+curl -s $blog \
+	| sed -n '/<head>/,/<\/head>/p' \
+	| tr '\n' ' ' \
+	| sed -n 's:.*<title>\([^<]*\)</title>.*:\1:p'
+
+curl -s $blog/about \
+	| sed -n '/<!-- about_start -->/,/<!-- about_end -->/p' \
+	| sed '1d;$d' \
+	| perl -pe 's/<[^>]+>/\n/g; s/^\s+|\s+$/\n/g;'
+
+curl -sL $blog/avatar | base64
 ```
 
 ##
