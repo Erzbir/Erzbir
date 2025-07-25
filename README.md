@@ -23,19 +23,8 @@ const ERZBIR: ReadMe = ReadMe {
 
 ##
 
-GitHub Stats
-<br>
-
 <a href="https://github.com/Erzbir">
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Erzbir&theme=tokyonight" width="95%" alt="summary">
-</a>
-
-<a href="https://github.com/Erzbir">
-    <img src="https://github-readme-stats.vercel.app/api?username=Erzbir&layout=compact&show_icons=true&theme=tokyonight" width="50%" alt="stats">
-</a>
-
-<a href="https://github.com/Erzbir">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Erzbir&layout=compact&theme=tokyonight" width="45%" alt="language">
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Erzbir&theme=tokyonight" alt="summary">
 </a>
 
 ##
