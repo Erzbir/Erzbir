@@ -19,8 +19,6 @@ curl -s $blog \
 curl -s $blog/about \
 	| sed -n '/<!-- about_start -->/,/<!-- about_end -->/p' \
 	| perl -pe 's/<[^>]+>/\n/g; s/^\s+|\s+$/\n/g;'
-
-curl -sL $blog/avatar | base64
 ```
 
 ##
