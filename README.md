@@ -11,14 +11,14 @@
 ```bash
 blog = "https://erzbir.com"
 
-name = curl -s $blog \
+name = $(curl -s $blog \
 	| sed -n '/<head>/,/<\/head>/p' \
 	| tr '\n' ' ' \
-	| sed -n 's:.*<title>\([^<]*\)</title>.*:\1:p'
+	| sed -n 's:.*<title>\([^<]*\)</title>.*:\1:p')
 
-about = curl -s $blog/about \
+about = $(curl -s $blog/about \
 	| sed -n '/<about>/,/<\/about>/p' \
-	| perl -pe 's/<[^>]+>/\n/g; s/^\s+|\s+$/\n/g;'
+	| perl -pe 's/<[^>]+>/\n/g; s/^\s+|\s+$/\n/g;')
 ```
 
 ##
