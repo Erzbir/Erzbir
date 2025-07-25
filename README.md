@@ -17,7 +17,7 @@ curl -s $blog \
 	| sed -n 's:.*<title>\([^<]*\)</title>.*:\1:p'
 
 curl -s $blog/about \
-	| sed -n '/<!-- about_start -->/,/<!-- about_end -->/p' \
+	| sed -n '/<about>/,/<\/about>/p' \
 	| perl -pe 's/<[^>]+>/\n/g; s/^\s+|\s+$/\n/g;'
 ```
 
