@@ -38,15 +38,13 @@ about=$(curl -s $blog/about \
 ##
 
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-1%2C497%20hrs%2048%20mins-blue)
+![Code Time](http://img.shields.io/badge/Code%20Time-1%2C507%20hrs%2026%20mins-blue)
 
 ![Profile Views](http://img.shields.io/badge/Profile%20Views-28-blue)
 
 **🐱 My GitHub Data** 
 
-> 📦 299.2 kB Used in GitHub's Storage 
- > 
-> 🏆 274 Contributions in the Year 2025
+> 📦 299.3 kB Used in GitHub's Storage 
  > 
 > 🚫 Not Opted to Hire
  > 
@@ -81,17 +79,17 @@ Sunday                   155 commits         ███░░░░░░░░�
 🕑︎ Time Zone: Asia/Shanghai
 
 💬 Programming Languages: 
-JavaScript               13 hrs 33 mins      █████░░░░░░░░░░░░░░░░░░░░   21.75 % 
-Java                     12 hrs 50 mins      █████░░░░░░░░░░░░░░░░░░░░   20.59 % 
-SCSS                     12 hrs 36 mins      █████░░░░░░░░░░░░░░░░░░░░   20.22 % 
-HTML                     7 hrs 42 mins       ███░░░░░░░░░░░░░░░░░░░░░░   12.36 % 
-YAML                     5 hrs 58 mins       ██░░░░░░░░░░░░░░░░░░░░░░░   09.59 % 
+SCSS                     16 hrs 15 mins      ██████░░░░░░░░░░░░░░░░░░░   25.75 % 
+JavaScript               13 hrs 47 mins      █████░░░░░░░░░░░░░░░░░░░░   21.85 % 
+Java                     10 hrs 36 mins      ████░░░░░░░░░░░░░░░░░░░░░   16.79 % 
+HTML                     8 hrs 29 mins       ███░░░░░░░░░░░░░░░░░░░░░░   13.46 % 
+YAML                     6 hrs 36 mins       ███░░░░░░░░░░░░░░░░░░░░░░   10.47 % 
 
 🔥 Editors: 
-IntelliJ IDEA            62 hrs 20 mins      █████████████████████████   100.00 % 
+IntelliJ IDEA            63 hrs 8 mins       █████████████████████████   100.00 % 
 
 💻 Operating System: 
-Mac                      62 hrs 20 mins      █████████████████████████   100.00 % 
+Mac                      63 hrs 8 mins       █████████████████████████   100.00 % 
 ```
 
 **I Mostly Code in Java** 
@@ -111,7 +109,7 @@ C                        1 repo              █░░░░░░░░░░�
 ![Lines of Code chart](https://raw.githubusercontent.com/Erzbir/Erzbir/main/assets/bar_graph.png)
 
 
- Last Updated on 05/08/2025 18:58:03 UTC
+ Last Updated on 06/08/2025 18:55:23 UTC
 <!--END_SECTION:waka-->
 
 </details>
