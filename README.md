@@ -40,13 +40,11 @@ about=$(curl -s $blog/about \
 <!--START_SECTION:waka-->
 ![Code Time](http://img.shields.io/badge/Code%20Time-1%2C523%20hrs%2057%20mins-blue)
 
-![Profile Views](http://img.shields.io/badge/Profile%20Views-1-blue)
+![Profile Views](http://img.shields.io/badge/Profile%20Views-0-blue)
 
 **🐱 My GitHub Data** 
 
 > 📦 389.2 kB Used in GitHub's Storage 
- > 
-> 🏆 298 Contributions in the Year 2025
  > 
 > 🚫 Not Opted to Hire
  > 
@@ -112,7 +110,7 @@ JavaScript               1 repo              █░░░░░░░░░░�
 ![Lines of Code chart](https://raw.githubusercontent.com/Erzbir/Erzbir/main/assets/bar_graph.png)
 
 
- Last Updated on 06/09/2025 18:42:57 UTC
+ Last Updated on 07/09/2025 18:43:11 UTC
 <!--END_SECTION:waka-->
 
 </details>
