@@ -38,9 +38,9 @@ about=$(curl -s $blog/about \
 ##
 
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-1%2C526%20hrs%2043%20mins-blue)
+![Code Time](http://img.shields.io/badge/Code%20Time-1%2C527%20hrs%2044%20mins-blue)
 
-![Profile Views](http://img.shields.io/badge/Profile%20Views-2-blue)
+![Profile Views](http://img.shields.io/badge/Profile%20Views-1-blue)
 
 **🐱 My GitHub Data** 
 
@@ -81,13 +81,17 @@ Sunday                   160 commits         ████░░░░░░░�
 🕑︎ Time Zone: Asia/Shanghai
 
 💬 Programming Languages: 
-No Activity Tracked This Week
+Java                     1 hr                ████████████████████████░   97.95 % 
+CLASS                    0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.93 % 
+Kotlin                   0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.64 % 
+Java module              0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.46 % 
+Markdown                 0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.03 % 
 
 🔥 Editors: 
-No Activity Tracked This Week
+IntelliJ IDEA            1 hr 1 min          █████████████████████████   100.00 % 
 
 💻 Operating System: 
-No Activity Tracked This Week
+Mac                      1 hr 1 min          █████████████████████████   100.00 % 
 ```
 
 **I Mostly Code in Java** 
@@ -107,7 +111,7 @@ JavaScript               1 repo              █░░░░░░░░░░�
 ![Lines of Code chart](https://raw.githubusercontent.com/Erzbir/Erzbir/main/assets/bar_graph.png)
 
 
- Last Updated on 10/10/2025 18:47:10 UTC
+ Last Updated on 11/10/2025 18:42:09 UTC
 <!--END_SECTION:waka-->
 
 </details>
