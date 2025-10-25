@@ -81,14 +81,13 @@ Sunday                   160 commits         ████░░░░░░░�
 🕑︎ Time Zone: Asia/Shanghai
 
 💬 Programming Languages: 
-Python                   2 mins              ███████████████████████░░   92.31 % 
-Markdown                 0 secs              ██░░░░░░░░░░░░░░░░░░░░░░░   07.69 % 
+No Activity Tracked This Week
 
 🔥 Editors: 
-PyCharm                  2 mins              █████████████████████████   100.00 % 
+No Activity Tracked This Week
 
 💻 Operating System: 
-Mac                      2 mins              █████████████████████████   100.00 % 
+No Activity Tracked This Week
 ```
 
 **I Mostly Code in Java** 
@@ -108,7 +107,7 @@ JavaScript               1 repo              █░░░░░░░░░░�
 ![Lines of Code chart](https://raw.githubusercontent.com/Erzbir/Erzbir/main/assets/bar_graph.png)
 
 
- Last Updated on 24/10/2025 18:47:06 UTC
+ Last Updated on 25/10/2025 18:45:21 UTC
 <!--END_SECTION:waka-->
 
 </details>
