@@ -38,9 +38,9 @@ about=$(curl -s $blog/about \
 ##
 
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-1%2C532%20hrs%2036%20mins-blue)
+![Code Time](http://img.shields.io/badge/Code%20Time-1%2C533%20hrs%202%20mins-blue)
 
-![Profile Views](http://img.shields.io/badge/Profile%20Views-2-blue)
+![Profile Views](http://img.shields.io/badge/Profile%20Views-3-blue)
 
 **🐱 My GitHub Data** 
 
@@ -81,13 +81,18 @@ Sunday                   160 commits         ████░░░░░░░�
 🕑︎ Time Zone: Asia/Shanghai
 
 💬 Programming Languages: 
-Java                     0 secs              █████████████████████████   100.00 % 
+Python                   18 mins             ██████████████████░░░░░░░   70.61 % 
+textmate                 6 mins              ██████░░░░░░░░░░░░░░░░░░░   24.88 % 
+Text                     0 secs              █░░░░░░░░░░░░░░░░░░░░░░░░   03.17 % 
+SQL                      0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   01.24 % 
+JSON                     0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.06 % 
 
 🔥 Editors: 
-IntelliJ IDEA            0 secs              █████████████████████████   100.00 % 
+Pycharm                  26 mins             █████████████████████████   99.98 % 
+IntelliJ IDEA            0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.02 % 
 
 💻 Operating System: 
-Mac                      0 secs              █████████████████████████   100.00 % 
+Mac                      26 mins             █████████████████████████   100.00 % 
 ```
 
 **I Mostly Code in Java** 
@@ -107,7 +112,7 @@ JavaScript               1 repo              █░░░░░░░░░░�
 ![Lines of Code chart](https://raw.githubusercontent.com/Erzbir/Erzbir/main/assets/bar_graph.png)
 
 
- Last Updated on 05/11/2025 18:50:08 UTC
+ Last Updated on 06/11/2025 18:53:01 UTC
 <!--END_SECTION:waka-->
 
 </details>
