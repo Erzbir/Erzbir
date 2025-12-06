@@ -33,7 +33,7 @@ about=$(curl -s $blog/about \
 <summary>📈 Wakatime Stats</summary>
 <br>
 
-![Erzbir's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=Erzbir\&layout=compact)
+[![Erzbir's WakaTime stats](https://github-readme-stats-fast.vercel.app/api/wakatime?username=Erzbir&layout=compact&theme=tokyonight)](https://github.com/Erzbir)
 
 ##
 
