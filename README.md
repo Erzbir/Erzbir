@@ -1,11 +1,11 @@
 <picture>
   <source
-    srcset="https://github-readme-stats.vercel.app/api?username=Erzbir&theme=github_dark&show_icons=true&hide_title=true&hide_border=true&include_all_commits=true"
+    srcset="https://github-readme-stats.vercel.app/api?username=Erzbir&theme=github_dark&show_icons=true&hide_title=true&hide_border=true&include_all_commits=true&count_private=true"
     media="(prefers-color-scheme: dark)" />
   <source
-    srcset="https://github-readme-stats.vercel.app/api?username=Erzbir&show_icons=true&hide_title=true&hide_border=true&include_all_commits=true"
+    srcset="https://github-readme-stats.vercel.app/api?username=Erzbir&show_icons=true&hide_title=true&hide_border=true&include_all_commits=true&count_private=true"
     media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)" />
-  <img src="https://github-readme-stats.vercel.app/api?username=Erzbir&show_icons=true&hide_title=true&hide_border=true&include_all_commits=true"
+  <img src="https://github-readme-stats.vercel.app/api?username=Erzbir&show_icons=true&hide_title=true&hide_border=true&include_all_commits=true&count_private=true"
     align="right" />
 </picture>
 
