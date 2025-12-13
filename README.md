@@ -1,13 +1,14 @@
 <picture>
   <source
-    srcset="https://github-readme-stats.vercel.app/api?username=Erzbir&theme=github_dark&show_icons=true&hide_title=true&hide_border=true&include_all_commits=true&count_private=true"
+    srcset="https://github-readme-stats.vercel.app/api?username=Erzbir&theme=github_dark&show_icons=true&hide_title=true&hide_border=true&include_all_commits=true"
     media="(prefers-color-scheme: dark)" />
   <source
-    srcset="https://github-readme-stats.vercel.app/api?username=Erzbir&show_icons=true&hide_title=true&hide_border=true&include_all_commits=true&count_private=true"
+    srcset="https://github-readme-stats.vercel.app/api?username=Erzbir&show_icons=true&hide_title=true&hide_border=true&include_all_commits=true"
     media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)" />
-  <img src="https://github-readme-stats.vercel.app/api?username=Erzbir&show_icons=true&hide_title=true&hide_border=true&include_all_commits=true&count_private=true"
+  <img src="https://github-readme-stats.vercel.app/api?username=Erzbir&show_icons=true&hide_title=true&hide_border=true&include_all_commits=true"
     align="right" />
 </picture>
+
 <p dir="auto" align="center">
 	<a href="https://erzbir.com" rel="nofollow">Blog</a> |
 	<a href="https://erzbir.com/about/" rel="nofollow">About</a> |
